@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-* main - mainbloc
+* main - main bloc
 * Description: Get a random number to print
 * Return: 0
 */
