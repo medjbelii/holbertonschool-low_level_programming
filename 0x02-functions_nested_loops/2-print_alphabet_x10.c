@@ -1,23 +1,23 @@
 #include 'holberton.h'
 /**
+ * print_alphabet_x10 - print alphabet
  *
- * print 10 times the alphabet
- * 
- **/
+**/
+
 void print_alphabet_x10(void);
 {
-    int i = 0;
-    char alpha;
+int i = 0;
+char alpha;
 
-    while ( i < 10)
+while (i < 10)
 {
-    alpha = a
-    while (a <= 'z')
+alpha = 'a';
+while (alpha <= 'z')
 {
-    _putchar(alpha)
-    alpha++
+_putchar(alpha);
+alpha++;
 }
-    _putchar('/n')
-    i++
+_putchar('/n');
+i++;
 }
 }
