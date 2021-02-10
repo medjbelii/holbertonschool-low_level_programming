@@ -1,12 +1,12 @@
 #include "holberton.h"
 /**
 * main- Display holberton
-* 
+*
 * Return: 0
 **/
 int main(void)
 {
-        _putchar('h');
+        _putchar('H');
         _putchar('o');
         _putchar('l');
         _putchar('b');
