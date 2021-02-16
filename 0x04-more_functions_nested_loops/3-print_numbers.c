@@ -1,34 +1,14 @@
 #include "holberton.h"
 /**
-*print_number - print
-*@n: int
-* Return: int to print
+*print_numbers - print
+* Return
 */
-void print_number(int n)
+void print_numbers(void)
 {
-int z = 1;
-unsigned int i, j;
-
-if (n < 0)
+int i;
+for (i = '0'; i <= '9'; i++)
 {
-_putchar('-');
-j = -n;
+_putchar(i);
 }
-else
-{
-j = n;
-}
-i = j / 10;
-while (i != 0)
-{
-i /= 10;
-z *= 10;
-}
-while (z != 1)
-{
-_putchar((j / z) +'0');
-j %= z;
-z /= 10;
-}
-_putchar(j + '0');
+_putchar('\n');
 }
