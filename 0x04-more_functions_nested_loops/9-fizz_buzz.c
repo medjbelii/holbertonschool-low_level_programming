@@ -21,4 +21,5 @@ int main(void)
 			printf("%d ", i);
 	}
 	printf("Buzz");
+	return (0);
 }
