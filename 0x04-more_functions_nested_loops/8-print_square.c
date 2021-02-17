@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * print_square- print squares
- * @n: integer
- * Return : diagonals
+ * print_square- integer that determines the demntions of the square
+ * @size: integer that determines the demntions of the square
+ * Return: square
  */
 
 void print_square(int size)
