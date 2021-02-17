@@ -1,21 +1,15 @@
 #include "holberton.h"
-
 /**
-  * print_line - print line
-  * @n: int
-**/
+ * print_line - showing lines using "_" character
+ * @n: integer
+ * Return: number of (_)
+ */
 void print_line(int n)
 {
-	int z;
 
-	if (n <= 0)
-	{
-		_putchar('\n');
-	}
-	else
-	{
-	for (z = 0; z < n; z++)
-		_putchar('_');
-		_putchar('\n');
-	}
+int i;
+for (i = 0; i < n ; i++)
+_putchar('_');
+_putchar('\n');
+
 }
