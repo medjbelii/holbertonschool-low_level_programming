@@ -1,9 +1,7 @@
 #include "holberton.h"
 /**
-*reset_to_98- digitchecker
-*
-* @n: variable
-* Return: 0
+*reset_to_98- update int
+* @n: var
 */
 void reset_to_98(int *n)
 {
