@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * _strncat - concats two strings
+ * _strncpy - concats two strings
  * @dest: destination
  * @src: source
  * @n: number
