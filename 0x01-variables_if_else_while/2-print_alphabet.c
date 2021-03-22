@@ -5,9 +5,9 @@
  **/
 int main(void)
 {
-	int n;
+	char n = 'a';
 
-	for (n = 97; n < 123; n++)
+	for (; n <= 'z'; n++)
 		putchar (n);
 	putchar('\n');
 }
