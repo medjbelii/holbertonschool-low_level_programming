@@ -1,14 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
 /**
  * main - last digit
- * @a: rand
- * @L: last digit
  * Return: 0
  **/
+
 int main(void)
 {
 	int a;
