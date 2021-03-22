@@ -5,8 +5,8 @@
 
 /**
  * main - last digit
- * @a - int random digit
- * @L - int last digit
+ * @a: rand
+ * @L: last digit
  * Return: 0
  **/
 int main(void)
@@ -18,16 +18,10 @@ int main(void)
 	a = rand() - RAND_MAX / 2;
 	L = a % 10;
 	if (L > 5)
-	{
-		printf("Last digit of %d is %d and is greater than 5\a", a, L);
-	}
+		printf("Last digit of %d is %d and is greater than 5\n", a, L);
 	else if (L == 0)
-	{
-		printf("Last digit of %d is %d and is 0\a", a, L);
-	}
+		printf("Last digit of %d is %d and is 0\n", a, L);
 	else
-	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\a", a, L);
-	}
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", a, L);
 	return (0);
 }
