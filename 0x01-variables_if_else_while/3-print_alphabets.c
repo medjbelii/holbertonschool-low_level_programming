@@ -1,25 +1,17 @@
 #include <stdio.h>
 /**
-* main - last digit
-* @A -char
-* @a -char
+* main - print
 * Return: 0
 **/
 int main(void)
 {
-	char a = 'a';
-	char A = 'A';
+	int a;
+	int A;
 
-	while (a <= 'z')
-	{
+	for (a = 97; a < 123; a++)
 		putchar(a);
-		a++;
-	}
-	while (A <= 'Z')
-	{
+	for (A = 65; A < 91; A++)
 		putchar(A);
-		A++;
-	}
 	putchar('\n');
 	return (0);
 }
