@@ -2,12 +2,12 @@
 /**
  * main - print_alphabet
  * Return: 0
- **/
+**/
 int main(void)
 {
-	char n = 'a';
+	int n;
 
-	for (; n <= 'z'; n++)
+	for (n = 97; n <= 122; n++)
 		putchar (n);
 	putchar('\n');
 	return (0);
