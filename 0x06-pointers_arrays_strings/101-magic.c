@@ -5,13 +5,13 @@
 */
 int main(void)
 {
-	int x;
-	int y[5];
+	int n;
+	int a[5];
 	int *p;
 
-	y[2] = 1024;
-	p = &x;
+	a[2] = 1024;
+	p = &n;
 	*(p + 5) = 98;
-	printf("y[2] = %d\n", y[2]);
+	printf("a[2] = %d\n", a[2]);
 	return (0);
 }
