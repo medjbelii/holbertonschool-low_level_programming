@@ -1,7 +1,7 @@
 #include <unistd.h>
 #include "holberton.h"
 /**
-* rot13 - Rot encoder
+* rot13 - concats two strings
 * @s: Dest
 * Return: encoded res
 */
