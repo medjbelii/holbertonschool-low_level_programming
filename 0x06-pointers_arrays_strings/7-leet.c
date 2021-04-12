@@ -11,7 +11,7 @@ char *leet(char *s)
 	char a[] = {'A', 'E', 'O', 'T', 'L'};
 	char b[] = {'a', 'e', 'o', 't', 'l'};
 	char c[] = {'4', '3', '0', '7', '1'};
-	
+
 	for (x = 0; s[x]; x++)
 	{
 		for (y = 0; y <= 5; y++)
