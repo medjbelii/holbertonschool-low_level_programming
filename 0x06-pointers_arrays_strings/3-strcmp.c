@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * _strcmp - concats two strings
- * @s1: destination
- * @s2: source
+ * @s1: Dest
+ * @s2: src
  * Return: el jaw el kol
  */
 int _strcmp(char *s1, char *s2)

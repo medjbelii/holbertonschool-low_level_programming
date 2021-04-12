@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * reverse_array - concats two strings
- * @a: destination
- * @n: source
+ * @a: Dest
+ * @n: src
  * Return: el jaw el kol
  */
 void reverse_array(int *a, int n)
