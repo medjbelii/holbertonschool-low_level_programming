@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+/**
+* main - concats two strings
+* Return: 0
+*/
 int main(void)
 {
 	int x;

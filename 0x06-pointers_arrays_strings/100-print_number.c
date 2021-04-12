@@ -2,33 +2,26 @@
 /**
 * print_number - concats two strings
 * @n: Dest
-* Return: none
+* Return: 0
 */
 void print_number(int n)
 {
-	int Dv = 1,  L = n, Res;
+	unsigned int x, y, z;
 
-	if (L < 0)
+	if (n < 0)
 	{
-		L = -L;
-		_putchar('-');
+		_putchar(45);
+		x = n * -1;
 	}
-	if (L < 9)
-	Dv = 0;
-	Res = L % 10;
-	L = L / 10;
-
-	int m = L;
-
-	while (L >= 10)
+	else
+		x = n;
+	y = x;
+	z = 1;
+	while (y > 9)
 	{
-		Dv *= 10;
-		L /= 10;
+		y /= 10;
+		z *= 10;
 	}
-	for (; Dv != 0; Dv /= 10)
-	{
-		_putchar(m / Dv + '0');
-		m %= Dv;
-	}
-	_putchar(Res + '0');
+	for (; z >= 1; z /= 10)
+		_putchar(((x / z) % 10) + 48);
 }
