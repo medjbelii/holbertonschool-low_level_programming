@@ -1,1 +1,1 @@
-Hmmm structures and stuff
+typedef dog
