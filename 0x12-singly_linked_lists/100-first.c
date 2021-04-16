@@ -1,7 +1,6 @@
 #include "lists.h"
 void myStartupFun(void) __attribute__ ((constructor));
 /**
-* 
 * myStartupFun - print
 *
 * Return: void
