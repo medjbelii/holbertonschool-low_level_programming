@@ -1,47 +1,49 @@
 #include "holberton.h"
-/**
-* power - pow
-*
-* @a: 1
-* @b: 2
-*
-* Return: res
-*/
-int power(int a, int b)
-{
-	int res = a;
 
-	if (b == 0)
-		return (1);
-	for (; b > 1; b--)
-		a *= res;
-	return (a);
-}
 /**
-* binary_to_uint - conv
-*
-* @b: conv
-*
-* Return: conv
+* _pow - x ^ y
+* @x: num 1
+* @y: num 2
+* Return: x ^ y =
+*/
+int _pow(int x, int y)
+{
+int z = x;
+if (y == 0)
+return (1);
+
+for (; y > 1; y--)
+x *= z;
+return (x);
+}
+
+/**
+* binary_to_uint - bnary to unsigned
+* @b: pointer
+* Return: Z
 */
 unsigned int binary_to_uint(const char *b)
 {
-	int l = 0, res = 0;
-	int x, lf;
+int lengh = 0, z = 0;
+int x, lengh2;
 
-	if (b == NULL)
-		return (0);
-	while (b[l])
-		l++;
-	l--;
-	lf = l;
-	for (x = 0; x <= lf; x++)
-	{
-		if (b[x] != '1' && b[x] != '0')
-			return (0);
-		if (b[x] == '1')
-			res += power(2, l);
-		l--;
-	}
-	return (res);
+if (b == NULL)
+return (0);
+
+
+while (b[lengh])
+lengh++;
+lengh--;
+
+lengh2 = lengh;
+for (x = 0; x <= lengh2; x++)
+{
+if (b[x] != '1' && b[x] != '0')
+return (0);
+if (b[x] == '1')
+z += _pow(2, lengh);
+lengh--;
+}
+
+return (z);
 }
