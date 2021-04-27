@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print 
+ * main - print
  *
  * Return: 1
  */
